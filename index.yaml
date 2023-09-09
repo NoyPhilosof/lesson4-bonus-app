@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  bonus-app:
+  - apiVersion: v2
+    appVersion: 2.2.33
+    created: "2023-09-09T22:19:17.451079+03:00"
+    description: Advanced DevOps course - lesson 4
+    digest: 4fb892aadadb72d89c3d4bdeed33ba5a8f00b5df5d27cc41e41eb00b16d4f705
+    name: bonus-app
+    type: application
+    urls:
+    - bonus-app-1.1.0.tgz
+    version: 1.1.0
+generated: "2023-09-09T22:19:17.450692+03:00"
