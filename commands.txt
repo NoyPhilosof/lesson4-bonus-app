@@ -1,0 +1,12 @@
+cd bonus-app
+git switch main
+git checkout -b gh-pages
+helm package bonus-app
+helm repo index bonus-app
+git add .
+git commit -m 'upload files to gh-pages branch'
+git push
+configure gh-pages settings
+helm repo add lesson4-bonus-app https://noyphilosof.github.io/lesson4-bonus-app/
+helm repo update
+helm upgrade -i bonus-app lesson4-bonus-app/bonus-app
